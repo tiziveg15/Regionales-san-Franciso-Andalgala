@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.S.F.A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-item"><b>Inicio</b></a>
+        <div class="logo">Regionales San Francisco Andalgala</div>
+        <a href="#" class="nav-item carrito-btn">Carrito (<span id="cart-count">0</span>)</a>
+    </nav>
+
+    <!-- Sección de productos -->
+    <section class="productos">
+        <div class="producto">
+            <h2>Producto 1</h2>
+            <p>$500</p>
+            <button class="add-to-cart" data-name="Producto 1" data-price="10">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <h2>Producto 2</h2>
+            <p>$1.000</p>
+            <button class="add-to-cart" data-name="Producto 2" data-price="15">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <h2>Producto 3</h2>
+            <p>$1.500</p>
+            <button class="add-to-cart" data-name="Producto 3" data-price="20">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <h2>Producto 4</h2>
+            <p>$1.500</p>
+            <button class="add-to-cart" data-name="Producto 4" data-price="20">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <!-- Carrito -->
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total-price">0</span></p>
+        <button id="clear-cart">Vaciar carrito</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
