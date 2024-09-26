@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R.S.F.A</title>
+    <meta name="description" content="Regionales San Francisco Andalgala - Productos típicos regionales de alta calidad.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>R.S.F.A - Regionales San Francisco Andalgala</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar">
-        <a href="index.html" class="nav-item"><b>Inicio</b></a>
-        <div class="logo">Regionales San Francisco Andalgala</div>
-        <a href="#" class="nav-item carrito-btn">Carrito (<span id="cart-count">0</span>)</a>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-item"><strong>Inicio</strong></a>
+            <div class="logo">Regionales San Francisco Andalgala</div>
+            <a href="#" class="nav-item carrito-btn">Carrito (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
 
     <!-- Sección de productos -->
-    <section class="productos">
-        <div class="producto">
-            <img src="img/productos/dulce de menbrillo.jpg" alt="">
-            <h2>Dulce de menbrillo x500g</h2>
-            <p>$500</p>
-            <button class="add-to-cart" data-name="dulce de menbrillo" data-price="500">Añadir al carrito</button>
-        </div>
-        <div class="producto">
-            <img src="img/productos/nuez confitada.jpg" alt="">
-            <h2>nuez confitada x5unidad</h2>
-            <p>$1.000</p>
-            <button class="add-to-cart" data-name="Nuez Confitada" data-price="1000">Añadir al carrito</button>
-        </div>
-        <div class="producto">
-            <img src="img/productos/de-prueva.jpg" alt="">
-            <h2>dulce de leche</h2>
-            <p>$1.500</p>
-            <button class="add-to-cart" data-name="dulce de leche" data-price="1500">Añadir al carrito</button>
-        </div>
-        <div class="producto">
-            <img src="img/productos/pastelitos.jpg" alt="">
-            <h2>pastelitos</h2>
-            <p>$1.500</p>
-            <button class="add-to-cart" data-name="pastelitos" data-price="1500">Añadir al carrito</button>
-        </div>
-    </section>
+    <main>
+        <section class="productos">
+            <article class="producto">
+                <img src="img/productos/dulce de menbrillo.jpg" alt="Dulce de membrillo 500g">
+                <h2>Dulce de membrillo x500g</h2>
+                <p>$500</p>
+                <button class="add-to-cart" data-name="Dulce de membrillo" data-price="500">Añadir al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="img/productos/nuez confitada.jpg" alt="Nuez confitada 5 unidades">
+                <h2>Nuez confitada x5 unidades</h2>
+                <p>$1.000</p>
+                <button class="add-to-cart" data-name="Nuez Confitada" data-price="1000">Añadir al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="img/productos/de-prueva.jpg" alt="Dulce de leche">
+                <h2>Dulce de leche</h2>
+                <p>$1.500</p>
+                <button class="add-to-cart" data-name="Dulce de leche" data-price="1500">Añadir al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="img/productos/pastelitos.jpg" alt="Pastelitos">
+                <h2>Pastelitos</h2>
+                <p>$1.500</p>
+                <button class="add-to-cart" data-name="Pastelitos" data-price="1500">Añadir al carrito</button>
+            </article>
+        </section>
+    </main>
 
     <!-- Carrito -->
     <section id="carrito">
@@ -49,6 +55,10 @@
         <p>Total: $<span id="total-price">0</span></p>
         <button id="clear-cart">Vaciar carrito</button>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Regionales San Francisco Andalgala. Todos los derechos reservados.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
