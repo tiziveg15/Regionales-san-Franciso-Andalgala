@@ -128,3 +128,8 @@ footer {
     background-color: var(--rojo-pastel);
     color: white;
 }
+
+.img-pdt {
+    height: 20px;
+    width: 20px;
+}
